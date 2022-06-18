@@ -5,7 +5,6 @@
 
 h1 {
   width: 100%;
-  text-align: center;
 }
 
 nav {
@@ -13,6 +12,17 @@ nav {
   height: 2rem;
   background-color: bisque;
   margin: 0;
+  display: flex;
+  padding: 5px 1rem;
+}
+
+button {
+  width: 150px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
 }
 
 .round-one {
@@ -79,4 +89,8 @@ nav {
   img {
     max-width: 40rem;
   }
+}
+
+.small-img {
+  max-height: 30vh;
 }
